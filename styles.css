@@ -33,8 +33,8 @@ nav {
 }
 
 .logo span {
-  position: absolute;
-  right: 20px;
+  position: relative;
+  left: 10px;
   top: 15px;
   font-weight: bold;
   padding: 15px;
@@ -103,7 +103,7 @@ nav:hover {
     left: 60px;
   }
 
-  a:hover{
+  a:hover {
     width: 576px;
   }
 
