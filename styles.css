@@ -16,7 +16,7 @@ nav {
   position: absolute;
   height: 100%;
   background: #fff;
-  width: 90px;
+  width: 80px;
   overflow: hidden;
   transition: width 0.2s linear;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1)
@@ -54,7 +54,7 @@ a {
 
 .fas {
   position: relative;
-  width: 70px;
+  width: 65px;
   height: 40px;
   top: 14px;
   font-size: 22px;
@@ -84,8 +84,38 @@ nav:hover {
   color: #F96666;
 }
 
+.logout:hover{
+  background: #FFE3E1;
+}
+
 /* responsive */
 @media screen and (max-width: 576px) {
+  nav {
+    width:70px;
+  }
+
+  .fas {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    top: 10px;
+    font-size: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  .fas:hover {
+    transition: all 0.3s ease;
+    font-size: 22px;
+  }
+
+  .logo img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 5px;
+  }
+
   nav:hover {
     width: 100%;
   }
