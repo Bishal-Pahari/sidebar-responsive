@@ -15,11 +15,11 @@ body {
 nav {
   position: absolute;
   height: 100%;
-  background: #fff;
   width: 80px;
   overflow: hidden;
   transition: width 0.2s linear;
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1)
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(100px);
 }
 
 .logo {
@@ -45,7 +45,7 @@ nav {
 
 a {
   position: relative;
-  color: rgb(85, 83, 83);
+  color: #f6f6f6;
   font-size: 14px;
   display: table;
   width: 300px;
@@ -70,9 +70,9 @@ a {
 }
 
 a:hover {
-  background: #eee;
+  /* background: #eee; */
+  background-color: grey;
 }
-
 
 nav:hover {
   width: 300px;
@@ -82,11 +82,11 @@ nav:hover {
 .logout {
   position: absolute;
   bottom: 0;
-  color: #F96666;
+  color: #f96666;
 }
 
 .logout:hover {
-  background: #FFE3E1;
+  background: #ffe3e1;
 }
 
 /* responsive */
@@ -98,7 +98,8 @@ nav:hover {
 
   nav {
     width: 70px;
-    backdrop-filter: blur(5px); /* For Glassmorphism Design*/
+    backdrop-filter: blur(10px);
+    /* For Glassmorphism Design*/
     background: none;
   }
 
@@ -132,7 +133,7 @@ nav:hover {
     font-size: 22px;
   }
 
-  span.header:hover{
+  span.header:hover {
     font-size: 25px;
   }
 
@@ -161,7 +162,7 @@ nav:hover {
   }
 
   a {
-    color: #E6E6DF;
+    color: #e6e6df;
   }
 
   a:hover {
