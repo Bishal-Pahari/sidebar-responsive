@@ -71,7 +71,12 @@ a {
 
 a:hover {
   /* background: #eee; */
-  background-color: grey;
+  background: linear-gradient(
+    hsla(0, 0%, 100%, 0.4),
+    hsla(0, 0%, 100%, 0.3) 25%,
+    rgba(246, 249, 252, 0.3) 50%,
+    #f59dcd 100%
+  );
 }
 
 nav:hover {
